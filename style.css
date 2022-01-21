@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&display=swap');
+  
+body {
+    background-color: white;
+    font-family:'Fira Sans', sans-serif;;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: white; 
+}
+
+nav > a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color: rgba(255, 248, 220, 0.469);
+}
+
+.logo {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 32px;
+    font-family:'Fira Sans', sans-serif;
+}
+
+.img-principal {
+    width: 100%;
+   
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+main {
+    margin: 45px;
+    
+    
+}
+
+.ensaio {
+   display: flex;
+   
+    
+}
+
+h1 {
+    font-family:'Fira Sans', sans-serif;
+    padding-bottom: 30px;
+
+}
+
+.flex {
+    display: flex;
+    gap: 15px;
+    
+}
+
+footer {
+    background-color: #EEEEEE;
+}
+
+footer > h1 {
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.rodape-menu {
+  display: grid;
+  grid-template-columns: 1;
+  gap: 10px;
+  text-align: center;
+
+}
+
+.rodape-menu > a {
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+
+.rodape-menu p {
+    padding: 15px;
+    font-size: 12px;
+}
